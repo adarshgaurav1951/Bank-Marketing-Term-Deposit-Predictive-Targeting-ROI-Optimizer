@@ -1,0 +1,5 @@
+Model,CV PR-AUC,CV ROC-AUC,Test PR-AUC,Test ROC-AUC,Test Recall,Test Precision,Test F1,Lift@10%,Capture@20% (%)
+XGBoost (Weighted),0.4598,0.7974,0.4819,0.8096,0.6519,0.3819,0.4817,4.57,65.7
+Random Forest (Balanced),0.4602,0.7987,0.4798,0.8133,0.639,0.4064,0.4969,4.66,65.5
+Logistic Regression (Balanced),0.4451,0.7905,0.4468,0.7998,0.6455,0.3593,0.4617,4.46,64.2
+Decision Tree (Balanced),0.413,0.7719,0.4464,0.7951,0.6261,0.3979,0.4866,4.62,65.0

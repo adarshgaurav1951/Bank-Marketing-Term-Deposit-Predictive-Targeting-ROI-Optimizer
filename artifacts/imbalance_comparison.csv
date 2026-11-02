@@ -1,0 +1,5 @@
+Strategy,CV PR-AUC,CV ROC-AUC,Test PR-AUC,Test ROC-AUC,Test Recall,Test Precision,Test F1
+None (Standard),0.4501,0.7898,0.4538,0.8002,0.2155,0.6579,0.3247
+Class Weights ('balanced'),0.4451,0.7905,0.4468,0.7998,0.6455,0.3593,0.4617
+SMOTE (Inside Pipeline),0.4427,0.7876,0.4454,0.7993,0.6562,0.3514,0.4577
+Random Under-Sampling,0.4415,0.7883,0.4421,0.7985,0.6455,0.3524,0.4559

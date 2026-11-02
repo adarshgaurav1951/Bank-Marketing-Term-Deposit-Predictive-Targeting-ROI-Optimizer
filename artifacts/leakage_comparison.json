@@ -1,0 +1,21 @@
+{
+  "production_without_duration": {
+    "model": "XGBoost (Weighted)",
+    "roc_auc": 0.8096,
+    "pr_auc": 0.4819,
+    "recall": 0.6519,
+    "precision": 0.3819,
+    "f1": 0.4817,
+    "status": "VALID FOR PRODUCTION (No lookahead leakage)"
+  },
+  "benchmark_with_duration": {
+    "model": "XGBoost (With Duration)",
+    "roc_auc": 0.9515,
+    "pr_auc": 0.6708,
+    "recall": 0.931,
+    "precision": 0.4598,
+    "f1": 0.6156,
+    "status": "FATAL LEAKAGE (Call duration unknown before call)"
+  },
+  "leakage_inflation_analysis": "Including 'duration' creates an artificial +0.1419 ROC-AUC jump and +0.1889 PR-AUC jump. However, duration is fundamentally unavailable prior to dialing, making any model relying on it useless in operational production."
+}
