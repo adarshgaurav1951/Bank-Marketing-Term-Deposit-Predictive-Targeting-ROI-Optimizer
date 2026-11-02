@@ -93,7 +93,7 @@ To run on your dedicated, unique project host port (**8592**):
 ```bash
 streamlit run app.py --server.port 8592 --server.address 0.0.0.0
 ```
-Then navigate to: **`http://localhost:8592`**
+Then navigate to: [http://localhost:8592](http://localhost:8592) (or [http://127.0.0.1:8592](http://127.0.0.1:8592))
 
 ---
 
